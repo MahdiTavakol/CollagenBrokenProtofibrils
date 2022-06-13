@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Simulations list
-Sims=("5-Series5" "6-Series6" "8-Series8" "9-Series9")
+Sims=("1-Series1" "2-Series2" "3-Series3" "4-Series4" "5-Series5")
 Scripts=("BrokenMF.py")
 
 for sim in "${Sims[@]}"
@@ -21,5 +21,3 @@ done
 wait
 
 ./BrokenMFallSims.py
-
-
